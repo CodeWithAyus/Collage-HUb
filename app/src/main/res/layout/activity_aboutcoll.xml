@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/davisfather"
+    tools:context=".aboutcoll">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/signinback"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/homeimg"
+            android:layout_width="wrap_content"
+            android:layout_height="600px"
+            android:scaleType="fitXY"
+            android:src="@drawable/slide" />
+
+        <TextView
+            android:id="@+id/welcomeid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/homeimg"
+            android:text="Welcome To"
+            android:textColor="#03A9F4"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/aloy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="4dp"
+            android:text="St.Aloysius Institute Of Technology"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold|bold" />
+
+        <TextView
+            android:id="@+id/aproved"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/aloy"
+            android:layout_gravity="center"
+            android:text="Approved by AICTE, New Delhi and Affiliated to RGPV Bhopal"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@id/aproved"
+            android:layout_margin="20dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/line" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/homeimg"
+            android:fontFamily="serif"
+            android:text="@string/finalabout"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@+id/text"
+            android:scaleType="fitXY"
+            android:src="@drawable/line" />
+
+        <WebView
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_below="@id/text"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:onClick="openaboutcoll" />
+
+        <TextView
+            android:id="@+id/course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/webview"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#0E1E6E"
+            android:drawableBottom="@drawable/drawable3d"
+            android:fontFamily="serif"
+            android:text="Courses Offered:-"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/rgpv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/course"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#0E1E6E"
+            android:drawableBottom="@drawable/drawable3d"
+            android:fontFamily="serif"
+            android:text="Bachelor of Technology"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp">
+
+                <FrameLayout
+                    android:layout_width="300dp"
+                    android:layout_height="520dp"
+                    android:layout_below="@+id/rgpv"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/course">
+
+                    <ImageView
+                        android:id="@+id/batchler"
+                        android:layout_width="300dp"
+                        android:layout_height="300dp"
+                        android:layout_gravity="top"
+                        android:layout_marginBottom="10dp"
+                        android:padding="10dp"
+                        android:src="@drawable/me" />
+
+                    <TextView
+                        android:id="@+id/courses5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:fontFamily="serif"
+                        android:text="Mechanical Engineering"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginTop="60dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/line" />
+
+                    <TextView
+                        android:layout_width="350sp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="bottom|center_vertical"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="2dp"
+                        android:fontFamily="serif"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/fristcourse"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="300dp"
+                    android:layout_height="520dp"
+                    android:layout_below="@+id/rgpv"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/course">
+
+                    <ImageView
+                        android:id="@+id/batchler4"
+                        android:layout_width="300dp"
+                        android:layout_height="300dp"
+                        android:layout_gravity="top"
+                        android:layout_marginBottom="10dp"
+                        android:padding="10dp"
+                        android:src="@drawable/cse" />
+
+                    <TextView
+                        android:id="@+id/courses4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:fontFamily="serif"
+                        android:text="Computer Science"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginTop="60dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/line" />
+
+                    <TextView
+                        android:layout_width="350sp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="bottom|center_vertical"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="2dp"
+                        android:fontFamily="serif"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/secondcourse"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="300dp"
+                    android:layout_height="520dp"
+                    android:layout_below="@+id/rgpv"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/course">
+
+                    <ImageView
+                        android:id="@+id/batchler3"
+                        android:layout_width="300dp"
+                        android:layout_height="300dp"
+                        android:layout_gravity="top"
+                        android:layout_marginBottom="10dp"
+                        android:padding="10dp"
+                        android:src="@drawable/ce" />
+
+                    <TextView
+                        android:id="@+id/courses3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:fontFamily="serif"
+                        android:text="Civil Engineering"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginTop="60dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/line" />
+
+                    <TextView
+                        android:layout_width="350sp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="bottom|center_vertical"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="2dp"
+                        android:fontFamily="serif"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/thirdcourse"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="300dp"
+                    android:layout_height="520dp"
+                    android:layout_below="@+id/rgpv"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/course">
+
+                    <ImageView
+                        android:id="@+id/batchler2"
+                        android:layout_width="300dp"
+                        android:layout_height="300dp"
+                        android:layout_gravity="top"
+                        android:layout_marginBottom="10dp"
+                        android:padding="10dp"
+                        android:src="@drawable/ee" />
+
+                    <TextView
+                        android:id="@+id/courses2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:fontFamily="serif"
+                        android:text="Electrical and Electronics Engineering"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginTop="62dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/line" />
+
+                    <TextView
+                        android:layout_width="350sp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="bottom|center_vertical"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="serif"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="@string/forthcourse"
+                        android:textColor="@color/black"
+                        android:textSize="19sp"
+                        android:textStyle="bold" />
+                </FrameLayout>
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <FrameLayout
+            android:id="@+id/mystatic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/famassage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text=" Director’s Messages "
+                android:textColor="@color/black"
+                android:textColorHighlight="#03A9F4"
+                android:textSize="26dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_margin="20dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/line"
+
+                />
+
+            <TextView
+                android:id="@+id/txtfi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:gravity="bottom"
+                android:text="SAIT JABALPUR"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="300dp"
+            android:layout_height="620dp"
+            android:layout_below="@+id/rgpv"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/course">
+
+            <ImageView
+                android:id="@+id/father"
+                android:layout_width="350dp"
+                android:layout_height="300dp"
+                android:layout_gravity="top|center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                android:src="@drawable/dfather"
+             />
+
+            <TextView
+                android:id="@+id/massage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="55dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="serif"
+                android:text="Dr. Fr. Davis George"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="60dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/line" />
+
+            <TextView
+                android:layout_width="350sp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="bottom|center_vertical"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="2dp"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/father"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </FrameLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+android:text="Life @ SAIT"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:layout_gravity="center|center_horizontal"
+ />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:src="@drawable/line"
+            android:scaleType="fitXY"
+            android:layout_margin="5dp"/>
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true">
+           <GridLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="horizontal"
+               android:rowCount="8"
+               android:columnCount="4"
+               android:layout_marginTop="-20dp">
+               <ImageView
+                   android:id="@+id/fristimage"
+                   android:layout_width="200dp"
+                   android:layout_height="200dp"
+                   android:scaleType="fitXY"
+                   android:padding="5dp"
+                   android:src="@drawable/sait1"
+                   android:stateListAnimator="@xml/actions"/>
+                   />
+               <ImageView
+                   android:layout_width="200dp"
+                   android:layout_height="200dp"
+                   android:scaleType="fitXY"
+                   android:padding="5dp"
+                   android:src="@drawable/sait2"/>
+               <ImageView
+                   android:layout_width="200dp"
+                   android:layout_height="200dp"
+                   android:scaleType="fitXY"
+                   android:padding="5dp"
+                   android:src="@drawable/sait3"/>
+               <ImageView
+                   android:layout_width="200dp"
+                   android:layout_height="200dp"
+                   android:scaleType="fitXY"
+                   android:padding="5dp"
+                   android:src="@drawable/sait4"/>
+               <ImageView
+                   android:layout_width="200dp"
+                   android:layout_height="200dp"
+                   android:adjustViewBounds="true"
+                   android:padding="5dp"
+                   android:scaleType="fitXY"
+                   android:src="@drawable/sait5"/>
+               <ImageView
+                   android:layout_width="200dp"
+                   android:layout_height="200dp"
+                   android:scaleType="fitXY"
+                   android:padding="5dp"
+                   android:src="@drawable/sait6"/>
+               <ImageView
+                   android:layout_width="200dp"
+                   android:layout_height="200dp"
+                   android:scaleType="fitXY"
+                   android:padding="5dp"
+                   android:src="@drawable/sait7"/>
+               <ImageView
+                   android:layout_width="200dp"
+                   android:layout_height="200dp"
+                   android:scaleType="fitXY"
+                   android:padding="5dp"
+                   android:src="@drawable/sait10"/>
+               <ImageView
+                   android:layout_width="200dp"
+                   android:layout_height="200dp"
+                   android:scaleType="fitXY"
+                   android:padding="5dp"
+
+                   android:src="@drawable/sait11"/>
+               <ImageView
+                   android:layout_width="200dp"
+                   android:layout_height="200dp"
+                   android:scaleType="fitXY"
+                   android:padding="5dp"
+                   android:src="@drawable/sait22"/>
+               <ImageView
+                   android:layout_width="200dp"
+                   android:layout_height="200dp"
+                   android:scaleType="fitXY"
+                   android:padding="5dp"
+                   android:src="@drawable/sait12"/>
+               <ImageView
+                   android:layout_width="200dp"
+                   android:layout_height="200dp"
+                   android:scaleType="fitXY"
+                   android:padding="5dp"
+                   android:src="@drawable/sait14"/>
+               <ImageView
+                   android:layout_width="200dp"
+                   android:layout_height="200dp"
+                   android:scaleType="fitXY"
+                   android:padding="5dp"
+                   android:src="@drawable/sait15"/>
+               <ImageView
+                   android:layout_width="200dp"
+                   android:layout_height="200dp"
+                   android:scaleType="fitXY"
+                   android:padding="5dp"
+                   android:src="@drawable/sait16"/>
+               <ImageView
+                   android:layout_width="200dp"
+                   android:layout_height="200dp"
+                   android:scaleType="fitXY"
+                   android:padding="5dp"
+                   android:src="@drawable/sait17"/>
+
+               <ImageView
+               android:layout_width="200dp"
+               android:layout_height="200dp"
+               android:scaleType="fitXY"
+               android:padding="5dp"
+               android:src="@drawable/sait20"/>
+
+           </GridLayout>
+
+        </HorizontalScrollView>
+
+
+    </LinearLayout>
+</ScrollView>

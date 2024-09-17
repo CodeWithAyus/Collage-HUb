@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/signinback"
+    tools:context=".MainActivity3">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/btechof"
+        android:scaleType="fitXY"
+        android:src="@drawable/btech" />
+    <TextView
+        android:id="@+id/btxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/course"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+
+        />
+
+    <ImageView
+        android:id="@+id/polyof"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_below="@id/btxt"
+        android:contextClickable="true"
+        android:onClick="openoffer"
+        android:src="@drawable/poly" />
+    <TextView
+        android:id="@+id/polytxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/polytech"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:contextClickable="true"
+        android:onClick="openpolyid"
+        android:fontFamily="serif"
+        android:layout_below="@id/polyof"
+       android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:id="@+id/lowim"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/polytxt"
+        android:layout_gravity="center_vertical"
+        android:scaleType="fitXY"
+        android:src="@drawable/low" />
+
+    <TextView
+        android:id="@+id/lowtx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LAW"
+        android:textSize="30sp"
+        android:layout_below="@id/lowim"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:layout_centerHorizontal="true"/>
+    <ImageView
+        android:id="@+id/courceim"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:clickable="true"
+        android:onClick="openoffer"
+        android:src="@drawable/other"
+        android:scaleType="fitXY"
+        />
+    <TextView
+        android:id="@+id/coursetx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Other Course"
+        android:textSize="30sp"
+        android:clickable="true"
+        android:onClick="openoffer"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:textColor="@color/black"
+        />
+
+
+</LinearLayout>
+</ScrollView>

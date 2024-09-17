@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/signinback"/>
+    <ImageView
+        android:id="@+id/secbtn"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/rectangle2" />
+
+
+    <TextView
+        android:id="@+id/thank"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:outlineProvider="paddedBounds"
+        android:outlineSpotShadowColor="@color/black"
+        android:layout_marginTop="200sp"
+        android:backgroundTint="#14B6A7"
+        android:text="@string/user"
+        android:textColor="#012C28"
+        android:clipToOutline="true"
+        android:outlineAmbientShadowColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/backto"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/thank"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:clipToOutline="true"
+        android:layout_marginLeft="5dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/gohome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableBottom="@drawable/rectangle"
+        android:textColor="@color/black"
+        android:text="Click Me"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/home"
+        android:onClick="gohome"
+        android:layout_marginTop="18dp"
+        />
+
+</RelativeLayout>

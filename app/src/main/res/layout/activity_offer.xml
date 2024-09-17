@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".offer"
+    android:id="@+id/polyfi"
+    android:background="@drawable/signinback"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bachelor of Technology"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:backgroundTint="#FFEB3B"
+            android:fontFamily="serif"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="@drawable/rec"
+            />
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:scrollbarAlwaysDrawHorizontalTrack="true"
+                android:outlineAmbientShadowColor="@color/black"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+            <FrameLayout
+                android:layout_width="300dp"
+                android:layout_height="625dp"
+                android:layout_below="@+id/rgpv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/course">
+
+                <ImageView
+                    android:id="@+id/batchler"
+                    android:layout_width="300dp"
+                    android:layout_height="317dp"
+                    android:layout_gravity="top"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp"
+                    android:src="@drawable/me" />
+
+                <TextView
+                    android:id="@+id/courses5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="serif"
+                    android:text="Mechanical Engineering"
+                    android:textColor="@color/black"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="40dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/line" />
+
+                <TextView
+                    android:layout_width="350sp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="bottom|center_vertical"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="2dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/fristcourse"
+                    android:textColor="@color/black"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="300dp"
+                android:layout_height="625dp"
+                android:layout_below="@+id/rgpv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/course">
+
+                <ImageView
+                    android:id="@+id/batchler4"
+                    android:layout_width="300dp"
+                    android:layout_height="317dp"
+                    android:layout_gravity="top"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp"
+                    android:src="@drawable/cse" />
+
+                <TextView
+                    android:id="@+id/courses4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="serif"
+                    android:text="Computer Science"
+                    android:textColor="@color/black"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="40dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/line" />
+
+                <TextView
+                    android:layout_width="350sp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="bottom|center_vertical"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="2dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/secondcourse"
+                    android:textColor="@color/black"
+                    android:textSize="22.5sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="300dp"
+                android:layout_height="625dp"
+                android:layout_below="@+id/rgpv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/course">
+
+                <ImageView
+                    android:id="@+id/batchler3"
+                    android:layout_width="300dp"
+                    android:layout_height="317dp"
+                    android:layout_gravity="top"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp"
+                    android:src="@drawable/ce" />
+
+                <TextView
+                    android:id="@+id/courses3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="serif"
+                    android:text="Civil Engineering"
+                    android:textColor="@color/black"
+                    android:textSize="22.5sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="40dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/line" />
+
+                <TextView
+                    android:layout_width="350sp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="bottom|center_vertical"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="2dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/thirdcourse"
+                    android:textColor="@color/black"
+                    android:textSize="22.5sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="300dp"
+                android:layout_height="625dp"
+                android:layout_below="@+id/rgpv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/course">
+
+                <ImageView
+                    android:id="@+id/batchler2"
+                    android:layout_width="300dp"
+                    android:layout_height="317dp"
+                    android:layout_gravity="top"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp"
+                    android:src="@drawable/ee" />
+
+                <TextView
+                    android:id="@+id/courses2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="serif"
+                    android:text="Electrical and Electronics Engineering"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="22.5sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="40dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/line" />
+
+                <TextView
+                    android:layout_width="350sp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="bottom|center_vertical"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/forthcourse"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+        <TextView
+            android:id="@+id/polyid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Polytechnic Diploma"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#FFEB3B"
+            android:background="@drawable/rec"/>
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rowCount="6"
+                android:layout_marginTop="10dp"
+                android:clipToOutline="true"
+                android:outlineAmbientShadowColor="@color/black"
+                android:orientation="vertical"
+                android:columnCount="1">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Polytechnic Diploma in Civil"
+                    android:textSize="28sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:fontFamily="serif"
+                    android:layout_marginTop="10dp"
+                    android:textAlignment="center"
+                    android:background="@drawable/rec"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Polytechnic Diploma in Mechanical"
+                    android:textSize="28sp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:fontFamily="serif"
+                    android:background="@drawable/rec"
+                    android:textAlignment="center"
+                    />
+
+            </GridLayout>
+
+        <TextView
+            android:id="@+id/courid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Other Course"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#FFEB3B"
+            android:background="@drawable/rec"
+            />
+
+<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bachelor of Education"
+                android:textSize="28sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+    android:layout_marginTop="10dp"
+                android:background="@drawable/rec"
+                android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="   Bachelor of Science"
+            android:textSize="28sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:background="@drawable/rec"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Diploma in Elementary Education "
+                android:textSize="28sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:background="@drawable/rec"
+                android:layout_marginTop="10dp"
+               android:gravity="center" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bachelor of Arts"
+            android:textSize="28sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:background="@drawable/rec"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bachelor of Commerce"
+            android:textSize="28sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:background="@drawable/rec"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bachelor of Business Administration"
+            android:textSize="28sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:background="@drawable/rec"
+            android:layout_marginTop="10dp"
+            android:gravity="center" />
+
+
+
+
+    </LinearLayout>
+    </ScrollView>

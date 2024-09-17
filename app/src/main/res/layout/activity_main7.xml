@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity7"
+    android:background="@drawable/signinback"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/texxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/white"
+            android:fontFamily="serif"
+            android:text="RGPV Syllabus"
+            android:textColor="@color/black"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/line" />
+
+        <Button
+            android:id="@+id/cse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/white"
+            android:contextClickable="true"
+            android:fontFamily="serif"
+            android:text="B.TECH COMPUTER SCIENCE"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/finalb"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-20dp"
+            android:contextClickable="true"
+            android:src="@drawable/down" />
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <GridLayout
+                android:id="@+id/mylayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:columnCount="4"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:rowCount="2">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="serif"
+                    android:text="1st SEM"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="serif"
+                    android:text="2nd SEM"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="serif"
+                    android:text="3rd SEM"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="serif"
+                    android:text="4th SEM"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="serif"
+                    android:text="5th SEM"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="serif"
+                    android:text="6th SEM"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="serif"
+                    android:text="7th SEM"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="serif"
+                    android:text="8th SEM"
+                    android:textStyle="bold" />
+
+            </GridLayout>
+        </HorizontalScrollView>
+
+        <Button
+            android:id="@+id/mach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/white"
+            android:contextClickable="true"
+            android:fontFamily="serif"
+            android:text="B.TECH Machanical "
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/finaldown"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="-20dp"
+            android:contextClickable="true"
+            android:src="@drawable/down" />
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <GridLayout
+                android:id="@+id/fdown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:visibility="gone"
+                android:columnCount="4"
+                android:orientation="horizontal"
+                android:rowCount="2">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="serif"
+                    android:text="1st SEM"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="serif"
+                    android:text="2nd SEM"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="serif"
+                    android:text="3rd SEM"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="serif"
+                    android:text="4th SEM"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="serif"
+                    android:text="5th SEM"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="serif"
+                    android:text="6th SEM"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="serif"
+                    android:text="7th SEM"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="serif"
+                    android:text="8th SEM"
+                    android:textStyle="bold" />
+
+            </GridLayout>
+        </HorizontalScrollView>
+
+        <Button
+            android:id="@+id/elec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/white"
+            android:contextClickable="true"
+            android:fontFamily="serif"
+            android:text="B.TECH Electrical"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/middown"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="-20dp"
+            android:contextClickable="true"
+            android:src="@drawable/down" />
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <GridLayout
+                android:id="@+id/midd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:columnCount="4"
+                android:orientation="horizontal"
+                android:rowCount="2"
+                android:layout_marginTop="15dp"
+                android:visibility="gone"
+                >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="serif"
+                    android:text="1st SEM"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="serif"
+                    android:text="2nd SEM"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="serif"
+                    android:text="3rd SEM"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="serif"
+                    android:text="4th SEM"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="serif"
+                    android:text="5th SEM"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="serif"
+                    android:text="6th SEM"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="serif"
+                    android:text="7th SEM"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="serif"
+                    android:text="8th SEM"
+                    android:textStyle="bold" />
+
+            </GridLayout>
+        </HorizontalScrollView>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/elec"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/white"
+            android:contextClickable="true"
+            android:fontFamily="serif"
+            android:text="B.TECH Civil "
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/quitedown"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="-20dp"
+            android:contextClickable="true"
+            android:src="@drawable/down" />
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <GridLayout
+                android:id="@+id/qdown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:columnCount="4"
+                android:orientation="horizontal"
+                android:rowCount="2"
+                android:visibility="gone"
+                android:layout_marginTop="15dp"
+                >
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="serif"
+                    android:text="1st SEM"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="serif"
+                    android:text="2nd SEM"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="serif"
+                    android:text="3rd SEM"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="serif"
+                    android:text="4th SEM"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="serif"
+                    android:text="5th SEM"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="serif"
+                    android:text="6th SEM"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="serif"
+                    android:text="7th SEM"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/black"
+                    android:fontFamily="serif"
+                    android:text="8th SEM"
+                    android:textStyle="bold" />
+
+
+            </GridLayout>
+
+        </HorizontalScrollView>
+    </LinearLayout>
+</ScrollView>

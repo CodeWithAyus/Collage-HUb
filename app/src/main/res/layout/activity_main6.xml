@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity6"
+    android:background="@drawable/signinback">
+    <TextView
+        android:id="@+id/weltx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome-Students "
+        android:layout_centerHorizontal="true"
+        android:background="#FFEB3B"
+        android:fontFamily="serif"
+        android:textColor="@color/black"
+        android:paddingBottom="10dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:padding="10dp">
+    <Button
+        android:id="@+id/mst1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="14"
+        android:fontFamily="serif"
+        android:text="MST-1"
+        android:contextClickable="true"
+        android:textSize="30sp"
+        android:backgroundTint="#0B5898"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/mst2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MST-2"
+        android:ems="14"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#094249"
+        android:textSize="30sp"
+        android:contextClickable="true"
+        android:fontFamily="serif"/>
+    <Button
+        android:id="@+id/finalbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Final"
+        android:ems="14"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#502025"
+        android:textSize="30sp"
+        android:contextClickable="true"
+        android:fontFamily="serif"/>
+</LinearLayout>
+</RelativeLayout>

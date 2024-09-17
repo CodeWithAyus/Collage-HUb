@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginsubmit">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/signinback"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:id="@+id/weltx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:layout_centerHorizontal="true"
+        android:background="#FFEB3B"
+        android:textColor="@color/black"
+        android:paddingBottom="10dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        />
+
+    <TextView
+        android:id="@+id/enroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enrollment Number"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/weltx"
+        android:textSize="20dp"
+        android:layout_marginTop="20sp"
+        />
+
+    <EditText
+        android:id="@+id/textviewof"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint=" Password"
+        android:layout_marginTop="45dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/black"
+        android:layout_below="@+id/weltx"
+        android:textSize="20sp"
+        android:ems="14"
+        android:layout_centerHorizontal="true"
+
+        />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/enroll"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/reset_password" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textviewof"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/passbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint=" Password"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/black"
+        android:layout_below="@+id/enroll"
+        android:textSize="20sp"
+        android:ems="14"
+        android:layout_centerHorizontal="true"
+
+        />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/passbtn"
+        android:layout_marginTop="55dp"
+        android:src="@drawable/reset_password" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="confirm Password"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/passbtn"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/passbtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint=" confirm Password"
+        android:layout_marginTop="55dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/black"
+        android:layout_below="@+id/passbtn"
+        android:textSize="20sp"
+        android:ems="14"
+        android:layout_centerHorizontal="true"
+        />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/passbtn2"
+        android:layout_marginTop="55dp"
+        android:src="@drawable/contact"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Number"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/passbtn2"
+        android:textSize="20dp"
+        android:layout_marginTop="20sp"
+        />
+
+    <EditText
+        android:id="@+id/passbtn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint=" Contact"
+        android:inputType="phone"
+        android:layout_marginTop="55dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/black"
+        android:layout_below="@+id/passbtn2"
+        android:textSize="20sp"
+        android:ems="14"
+        android:layout_centerHorizontal="true"
+        />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/passbtn3"
+        android:layout_marginTop="55dp"
+        android:src="@drawable/b"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/passbtn3"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/passbtn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint=" Semester"
+        android:inputType="number"
+        android:layout_marginTop="55dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/black"
+        android:layout_below="@+id/passbtn4"
+        android:textSize="20sp"
+        android:ems="14"
+        android:layout_centerHorizontal="true"
+        />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/passbtn4"
+        android:layout_marginTop="55dp"
+        android:src="@drawable/graduation"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Semester"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/passbtn4"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/passbtn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint=" Course"
+        android:inputType=""
+        android:layout_marginTop="55dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/black"
+        android:layout_below="@+id/passbtn3"
+        android:textSize="20sp"
+        android:ems="14"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/loginactivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableBottom="@drawable/rectangle"
+        android:textColor="@color/black"
+        android:text="Click Me"
+        android:textSize="30dp"
+        android:layout_below="@+id/passbtn5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        />
+
+
+</RelativeLayout>

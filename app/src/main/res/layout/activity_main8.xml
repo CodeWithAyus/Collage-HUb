@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity8"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To B.tech"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:layout_gravity="center_horizontal"
+        android:background="#B2EBF2"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please select your Year !"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/fristyear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/course"
+        android:backgroundTint="@color/black"
+        android:contextClickable="true"
+        android:fontFamily="serif"
+        android:text="First Year"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/fristc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please select your Branch !"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"/>
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <GridLayout
+        android:id="@+id/fristb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="1"
+        android:visibility="gone"
+        android:columnCount="4"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/co1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:fontFamily="serif"
+            android:textSize="20dp"
+            android:text="CSE"
+            android:layout_margin="5dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:contextClickable="true"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:fontFamily="serif"
+            android:textSize="20dp"
+            android:text="ME"
+            android:layout_margin="5dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:contextClickable="true"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/ex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:fontFamily="serif"
+            android:textSize="20dp"
+            android:text="EX"
+            android:layout_margin="5dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:contextClickable="true"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/ce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:fontFamily="serif"
+        android:textSize="20dp"
+        android:text="CE"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:contextClickable="true"
+            android:layout_margin="5dp"
+        android:textStyle="bold" />
+
+    </GridLayout>
+    </HorizontalScrollView>
+    <TextView
+        android:id="@+id/secondyear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:fontFamily="serif"
+        android:textSize="20dp"
+        android:text="Second Year"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:contextClickable="true"
+        android:background="@drawable/course"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/secondc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please select your Branch !"
+        android:textSize="20dp"
+        android:visibility="gone"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"/>
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <GridLayout
+        android:id="@+id/secondb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="1"
+        android:columnCount="4"
+        android:visibility="gone"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/cse2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:fontFamily="serif"
+            android:textSize="20dp"
+            android:text="CSE"
+            android:layout_margin="5dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:contextClickable="true"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/me2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:fontFamily="serif"
+            android:textSize="20dp"
+            android:text="ME"
+            android:layout_margin="5dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:contextClickable="true"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/ex2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:fontFamily="serif"
+            android:textSize="20dp"
+            android:text="EX"
+            android:layout_margin="5dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:contextClickable="true"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/ce2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:fontFamily="serif"
+            android:textSize="20dp"
+            android:text="CE"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:contextClickable="true"
+            android:layout_margin="5dp"
+            android:textStyle="bold" />
+
+    </GridLayout>
+
+    </HorizontalScrollView>
+    <TextView
+        android:id="@+id/thirdyear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:fontFamily="serif"
+        android:textSize="20dp"
+        android:text="Third Year"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:contextClickable="true"
+        android:background="@drawable/course"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/thirdc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="Please select your Branch !"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"/>
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <GridLayout
+        android:id="@+id/thirdb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="1"
+        android:visibility="gone"
+        android:columnCount="4"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/cse3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:fontFamily="serif"
+            android:textSize="20dp"
+            android:text="CSE"
+            android:layout_margin="5dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:contextClickable="true"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/me3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:fontFamily="serif"
+            android:textSize="20dp"
+            android:text="ME"
+            android:layout_margin="5dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:contextClickable="true"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/ex3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:fontFamily="serif"
+            android:textSize="20dp"
+            android:text="EX"
+            android:layout_margin="5dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:contextClickable="true"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/ce3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:fontFamily="serif"
+            android:textSize="20dp"
+            android:text="CE"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:contextClickable="true"
+            android:layout_margin="5dp"
+            android:textStyle="bold" />
+
+
+
+    </GridLayout>
+    </HorizontalScrollView>
+    <TextView
+        android:id="@+id/forthyear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:fontFamily="serif"
+        android:textSize="20dp"
+        android:text="Forth Year"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:contextClickable="true"
+        android:background="@drawable/course"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/forthc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please select your Branch !"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:visibility="gone"
+        android:layout_marginTop="10dp"/>
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <GridLayout
+        android:id="@+id/forthb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="1"
+        android:columnCount="4"
+        android:visibility="gone"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/cse4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:fontFamily="serif"
+            android:textSize="20dp"
+            android:text="CSE"
+            android:layout_margin="5dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:contextClickable="true"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/me4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:fontFamily="serif"
+            android:textSize="20dp"
+            android:text="ME"
+            android:layout_margin="5dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:contextClickable="true"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/ex4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:fontFamily="serif"
+            android:textSize="20dp"
+            android:text="EX"
+            android:layout_margin="5dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:contextClickable="true"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/ce4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:fontFamily="serif"
+            android:textSize="20dp"
+            android:text="CE"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:contextClickable="true"
+            android:layout_margin="5dp"
+            android:textStyle="bold" />
+    </GridLayout>
+    </HorizontalScrollView>
+</LinearLayout>

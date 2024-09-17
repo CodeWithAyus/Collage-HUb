@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">SAIT</string>
+    <string name="AboutUs">"For More:-"</string>
+    <string name="contect">Contact Us</string>
+    <string name="insta">Instagram</string>
+    <string name="twitter">Twitter</string>
+    <string name="welcome">Welcome_User</string>
+    <string name="user">Thankyou for signup</string>
+    <string name="backto">For going back to Home page </string>
+    <string name="collage">ABOUT SAIT</string>
+    <string name="declare">Welcome to
+St. Aloysius Institute of Technology
+    Approved by AICTE, New Delhi and Affiliated to RGPV Bhopal.
+        For more visit about page or 👇.
+    </string>
+    <string name="student">Student Login</string>
+
+    <string name="finalabout">
+St. Aloysius Institute of Technology (SAIT), established by the Catholic Diocese of Jabalpur, aims to provide quality education in science and technology. With a focus on holistic development, SAIT empowers students to contribute to the nation through innovation, technology, and entrepreneurship, reflecting Indias emergence as a global competitor in the field.
+</string>
+    <string name="fristcourse">The Mechanical Department designs and manufactures mechanical systems, emphasizing innovation and sustainability. It collaborates across industries and disciplines to advance technology while ensuring machinerys reliability </string>
+    <string name="secondcourse">Computer Science Engineering merges computer science and engineering to create, manage, and enhance software, hardware, and computing systems, underpinning diverse applications and technological advancements across industries.</string>
+    <string name="thirdcourse">Civil Engineering encompasses planning, designing, constructing, and maintaining infrastructure like buildings, bridges, and transportation systems. It plays a crucial role in shaping urban environments and ensuring their sustainability and safety.
+</string>
+    <string name="forthcourse">Electrical and Electronics Engineering innovates electrical systems and electronic devices, facilitating advancements in communication, renewable energy, automation, and diverse industries while ensuring reliable and efficient electrical infrastructure.
+</string>
+    <string name="father"> Welcome to St. Aloysius Institute of Technology, which is a sister concern of St. Aloysius College, known for its academic excellence and character formation, upholds a tradition of over five decades in providing quality education. With a legacy of producing successful graduates, SAIT remains dedicated to nurturing future technocrats and leaders.</string>
+
+    <string name="course">Bachelor of
+                         Technology</string>
+    <string name="studentlogin">Student login</string>
+    <string name="polytech">Polytechnic Diploma</string>
+    <string name="forget">Forget password</string>
+    <string name="Signup">Signup</string>
+    <string name="weltech">Welcome_Teachers </string>
+    <string name="userof">We apologize for any inconvenience caused. The page you are trying to access is currently under construction or may not be available (Error 404).</string>
+    <string name="image">Image</string>
+
+
+</resources>
+
+
+
+
