@@ -5,8 +5,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Button"
-    />
+        android:text="Button"/>
 
     <solid android:color="#070849" />
     <corners android:radius="0dp" />

@@ -55,7 +55,7 @@
             android:layout_alignParentRight="true"
             android:layout_marginTop="-5dp"
             android:clickable="true"
-            android:onClick="openfinal"
+
             android:layout_marginRight="10dp"
             android:layout_marginBottom="30dp"
             android:text="login/signup"
@@ -310,7 +310,6 @@
     android:textSize="20sp"
     android:fontFamily="serif"
     android:clickable="true"
-    android:onClick="openMain"
     android:layout_centerHorizontal="true"
     android:backgroundTint="@color/black"
     android:textColor="@color/white"

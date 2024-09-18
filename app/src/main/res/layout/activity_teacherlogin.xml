@@ -78,9 +78,7 @@
             android:layout_marginRight="31dp"
             android:textSize="18sp"
             android:background="@drawable/rec"
-            android:textStyle="bold"
-            android:onClick="openmain2"
-            />
+            android:textStyle="bold" />
         <TextView
             android:id="@+id/fivbtn"
             android:layout_width="wrap_content"
@@ -183,7 +181,6 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="90dp"
             android:clickable="true"
-            android:onClick="openlogin"
             android:layout_gravity="right|bottom"
             android:layout_marginBottom="50dp"
             android:layout_marginRight="34dp"
@@ -191,7 +188,6 @@
             android:textColor="#FFEB3B"
             android:textSize="18sp"
             android:textStyle="bold" />
-
     </FrameLayout>
 
    </androidx.constraintlayout.widget.ConstraintLayout>

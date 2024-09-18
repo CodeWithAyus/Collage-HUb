@@ -99,7 +99,7 @@
         android:layout_marginTop="10dp"
         android:layout_below="@id/pass"
         android:clickable="true"
-        android:onClick="togglePasswordVisibility"
+
 />
 
     <TextView
@@ -175,7 +175,6 @@
         android:layout_centerHorizontal="true"
         android:contextClickable="true"
         android:fontFamily="serif"
-        android:onClick="openMainActivity5"
         android:backgroundTint="#B2DFDB"
        />
 

@@ -33,7 +33,6 @@
     android:layout_marginTop="20dp"
     android:textSize="20dp"
       android:clickable="true"
-      android:onClick="openmain"
     android:textStyle="bold"
     android:drawableBottom="@drawable/rectangle"
     android:layout_below="@id/weltx"/>
@@ -48,7 +47,7 @@
       android:textColor="@color/white"
       android:backgroundTint="@color/black"
 android:contextClickable="true"
-      android:onClick="openoffer"
+
       android:layout_marginTop="20dp"
       android:textSize="25dp"
       android:textStyle="bold"
@@ -97,7 +96,6 @@ android:contextClickable="true"
       android:textSize="25dp"
       android:textStyle="bold"
       android:clickable="true"
-      android:onClick="openabout"
       android:drawableBottom="@drawable/buttonfor" />
   <Button
       android:id="@+id/aboutadministretor"
@@ -112,7 +110,7 @@ android:contextClickable="true"
       android:textSize="25dp"
       android:textStyle="bold"
       android:clickable="true"
-      android:onClick="openabout"
+
       android:drawableBottom="@drawable/buttonfor" />
   <Button
       android:id="@+id/aboutfaculty"
@@ -127,7 +125,6 @@ android:contextClickable="true"
       android:textSize="25dp"
       android:textStyle="bold"
       android:clickable="true"
-      android:onClick="openabout"
       android:drawableBottom="@drawable/buttonfor"
       android:layout_below="@id/aboutadministretor"/>
   <Button
@@ -143,7 +140,6 @@ android:contextClickable="true"
       android:textSize="25dp"
       android:textStyle="bold"
       android:clickable="true"
-      android:onClick="openabout"
       android:drawableBottom="@drawable/buttonfor"
       android:layout_below="@id/aboutfaculty"/>
 
@@ -160,6 +156,6 @@ android:contextClickable="true"
       android:textSize="25dp"
       android:textStyle="bold"
       android:clickable="true"
-      android:onClick="openbot"
+
       android:drawableBottom="@drawable/buttonfor" />
   </LinearLayout>

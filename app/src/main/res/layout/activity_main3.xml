@@ -37,7 +37,7 @@
         android:layout_height="200dp"
         android:layout_below="@id/btxt"
         android:contextClickable="true"
-        android:onClick="openoffer"
+
         android:src="@drawable/poly" />
     <TextView
         android:id="@+id/polytxt"
@@ -48,7 +48,7 @@
         android:textColor="@color/black"
         android:textStyle="bold"
         android:contextClickable="true"
-        android:onClick="openpolyid"
+
         android:fontFamily="serif"
         android:layout_below="@id/polyof"
        android:layout_centerVertical="true"
@@ -80,7 +80,7 @@
         android:layout_width="wrap_content"
         android:layout_height="200dp"
         android:clickable="true"
-        android:onClick="openoffer"
+
         android:src="@drawable/other"
         android:scaleType="fitXY"
         />
@@ -91,7 +91,6 @@
         android:text="Other Course"
         android:textSize="30sp"
         android:clickable="true"
-        android:onClick="openoffer"
         android:textStyle="bold"
         android:fontFamily="serif"
         android:textColor="@color/black"
